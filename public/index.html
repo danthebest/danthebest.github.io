@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en" class="" id="portfolio">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,31 +6,35 @@
   <title>Daniel Tossou - Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-secondary text-gray-700 font-body leading-normal">
+<body class="bg-secondary dark:bg-gray-800 dark:text-white text-gray-700 font-body leading-normal">
   <div>
     <nav class="flex items-center justify-between mt-4">
-      <div class="flex justify-start md:ml-8">
+      <div class="ml-2 md:ml-8">
         <picture>
-          <img src="img/tossdan_logo.png" alt="logo">
+          <a href="index.html"><img src="img/tossdan_logo.png" alt="logo"></a>
         </picture>
       </div>
-      <ul class="text-medium mr-4 md:mr-8">
+      <ul class="text-medium mr-2 md:mr-8">
         <li class="inline hover:underline hover:text-gray-900 hover:text-xl">
-          <a href="#">about</a>
+          <a href="about.html">about</a>
         </li>
         <li class="inline ml-2 hover:underline hover:text-gray-900 hover:text-xl">
           <a href="#">portfolio</a>
         </li>
         <li class="inline ml-2 hover:underline hover:text-gray-900 hover:text-xl">
-          <a href="#">contacts</a>
+          <a href="contact.html">contact</a>
         </li>
       </ul>
     </nav>
   </div>
-  <div class="text-center md:grid grid-cols-6 gap-4 mt-28">
+  <div class="text-center grid md:grid-cols-6 gap-4 mt-28">
+    <div class="ml-4">
+      <a href="#" class="btn border-primary border-2 hover:bg-primary hover:text-gray-800 transition ease-out duration-500" id="theme">light / dark</a>
+    </div>
     <h1 class="text-6xl leading-tight mb-2 md:col-start-2 md:col-span-4">I am a web developer based in Abidjan.</h1>
     <p class="text-lg md:text-xl md:col-start-2 md:col-span-4">I am passionate about community projects with a strong social impact. I create simple and elegant websites and web applications. I like to build small solutions that are useful on a daily basis.</p>
   </div>
   
+  <script src="index.js"></script>
 </body>
 </html>
