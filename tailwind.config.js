@@ -1,6 +1,7 @@
 module.exports = {
   purge: [],
-  darkMode: 'class', // or 'media' or 'class'
+  // media active dark or light mode based on system theme enable
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
